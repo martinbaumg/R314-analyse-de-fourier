@@ -90,23 +90,70 @@ $ f(t) = \left\{
 
 \subsubsection{Calcul de sa valeur moyenne}
 
-On calcule d'abord $ a_{O} = \frac{1}{T} \int_{\bigtriangleup}f(t) dt$\\[0.5cm]
-\begin{itemize}
-    \item $ T = 2\pi $\\
-    \item $ \bigtriangleup = [- \pi; \pi] $\\
-    \item $ a_{0} = \frac{1}{2 \pi} \int_{- \pi}^{\pi} f(t)dt = \frac{1}{2T}(\int_{- \pi}^{0} 1dt + \int_{0}^{\pi}2dt $\\
-    \item $ a_{0} = \frac{1}{2\pi}([t]_{- \pi}^{0} + [2t]_{0}^{\pi}) $\\
-    \item $ a_{0} = \frac{1}{2\pi}(0 - (- \pi) + (2 \pi - 0)) $\\
-    \item $ a_{0} = \frac{1}{2\pi}(\pi + 2 \pi) = \frac{1}{2 \pi} = \frac{3}{2} $\\
-\end{itemize}
+On calcule d'abord $ a_{O} = \frac{1}{T} \int_{\bigtriangleup}f(t) dt$ :\\[0.5cm]
+\par $ \Rightarrow $ $ T = 2\pi $\\
+\par $ \Rightarrow $ $ \bigtriangleup = [- \pi; \pi] $\\
+\par $ \Rightarrow $ $ a_{0} = \frac{1}{2 \pi} \int_{- \pi}^{\pi} f(t)dt = \frac{1}{2T}(\int_{- \pi}^{0} 1dt + \int_{0}^{\pi}2dt $\\
+\par $ \Rightarrow $ $ a_{0} = \frac{1}{2\pi}([t]_{- \pi}^{0} + [2t]_{0}^{\pi}) $\\
+\par $ \Rightarrow $ $ a_{0} = \frac{1}{2\pi}(0 - (- \pi) + (2 \pi - 0)) $\\
+\par $ \Rightarrow $ $ a_{0} = \frac{1}{2\pi}(\pi + 2 \pi) = \frac{1}{2 \pi} = \frac{3}{2} $\\
 
+\newpage
 \subsubsection{Calcul des coefficients de Fourier}
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.9\textwidth]{img/exo3.png}
-    \caption{Exerice 3}
-    \label{fig:exo3}
-\end{figure}
+
+Premièrement, on calcule $ a_{n} $ et $ b_{n} $ :\\
+
+\par $ \Rightarrow $ $ \omega = \frac{2 \pi}{T} = \frac{2 \pi}{2 \pi} = 1 $\\
+\par $ \Rightarrow $ $ a_{n} = \frac{2}{T} \int_{\bigtriangleup} f(t) cos (nt) dt $\\
+\par $ \Rightarrow $ $ a_{n} = \frac{2}{2 \pi} \int_{- \pi}^{\pi} f(t) cos (nt) dt $\\
+\par $ \Rightarrow $ $ a_{n} = \frac{1}{\pi} [ \int_{- \pi}^{0} 1 cos (nt)dt +  \int_{0}^{\pi} 2 cos(nt)dt ] $\\
+\par $ \Rightarrow $ $ a_{n} = \frac{1}{\pi}([\frac{sin(nt)}{n}]_{- \pi}^{0} + [\frac{2sin(nt)}{n}]_{0}^{\pi}) $\\ 
+\par $ \Rightarrow $ $ a_{n} = 0 $\\[0.5cm]
+
+\begin{tikzpicture}
+    \begin{axis}
+      [
+        xtick={-7.0686,-6.2831,...,7.0686},
+        xticklabels={
+          ,
+          {\tiny$-8\pi$},
+          {\tiny$-7\pi$},
+          {\tiny$-6\pi$},
+          {\tiny$-5\pi$},
+          {\tiny$-4\pi$},
+          {\tiny$-3\pi$},
+          {\tiny$-2\pi$},
+          {\tiny$-1\pi$},
+          {\tiny$0\pi$},
+          {\tiny$1\pi$},
+          {\tiny$2\pi$},
+          {\tiny$3\pi$},
+          {\tiny$4\pi$},
+          {\tiny$5\pi$},
+          {\tiny$6\pi$},
+          {\tiny$7\pi$},
+          {\tiny$8\pi$},
+          },
+        grid=major,
+        x=10mm,
+        y=20mm,
+        axis x line=center,
+        axis y line=center,
+        xlabel={$x$},
+        ylabel={$y$},
+        every tick label/.style={fill=white},
+      ]
+    \addplot
+      [
+        domain=-2*pi:2*pi,
+        smooth,
+        blue,
+        thick,
+      ]
+      plot {sin(deg(x))};
+    \end{axis}
+  \end{tikzpicture}\\
+  La fonction sinus est impaire car $ f(-x) = -f(x) $\\
 \subsubsection{Donner sa décomposition en série de Fourier}
 
 \subsubsection{Donner les 4 premières harmoniques}
@@ -118,7 +165,6 @@ On calcule d'abord $ a_{O} = \frac{1}{T} \int_{\bigtriangleup}f(t) dt$\\[0.5cm]
     \item Si $ f(t) $ est impair alors $ a_{0} $ les $ a_{n} $ sont nuls
     \item Si $ f(t) $ est quelconque mais que $ f(t) - a_{O} $ est impair alors les
     $ a_{n} $ sont nuls 
-    
 \end{itemize}
 
 \end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.15)  21 SEP 2022 13:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.15)  21 SEP 2022 22:31
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -816,6 +816,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 62--64
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
+
+ []
+
 <img/courbe1.png, id=69, 657.45625pt x 296.10625pt>
 File: img/courbe1.png Graphic file (type png)
 <use img/courbe1.png>
@@ -823,6 +828,11 @@ Package pdftex.def Info: img/courbe1.png  used on input line 86.
 (pdftex.def)             Requested size: 376.42575pt x 169.53685pt.
 [2]
 Underfull \hbox (badness 10000) in paragraph at lines 93--94
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
 
  []
 
@@ -851,33 +861,63 @@ Underfull \hbox (badness 10000) in paragraph at lines 99--100
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 100--101
+[3 <./img/courbe1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
 
  []
 
-<img/exo3.png, id=83, 549.05125pt x 513.92pt>
-File: img/exo3.png Graphic file (type png)
-<use img/exo3.png>
-Package pdftex.def Info: img/exo3.png  used on input line 106.
-(pdftex.def)             Requested size: 376.42575pt x 352.34674pt.
-[3 <./img/courbe1.png>] [4 <./img/exo3.png>] (./report.aux)
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--107
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--108
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 110--111
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--112
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--157
+
+ []
+
+[4] (./report.aux)
 Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: C67C4754F93A30CF2C4C4B7C61A61A20;1707.
  ) 
 Here is how much of TeX's memory you used:
- 37830 strings out of 478268
- 859727 string characters out of 5846347
- 1271937 words of memory out of 5000000
- 55443 multiletter control sequences out of 15000+600000
- 481545 words of font info for 52 fonts, out of 8000000 for 9000
+ 38309 strings out of 478268
+ 873473 string characters out of 5846347
+ 1298011 words of memory out of 5000000
+ 55923 multiletter control sequences out of 15000+600000
+ 482538 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,11n,103p,800b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc1728.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc2074.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb>
-Output written on report.pdf (5 pages, 349434 bytes).
+ 99i,11n,103p,800b,2029s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc1728.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc2074.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb>
+Output written on report.pdf (5 pages, 270657 bytes).
 PDF statistics:
- 175 PDF objects out of 1000 (max. 8388607)
- 128 compressed objects within 2 object streams
- 17 named destinations out of 1000 (max. 500000)
- 95 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 187 PDF objects out of 1000 (max. 8388607)
+ 136 compressed objects within 2 object streams
+ 16 named destinations out of 1000 (max. 500000)
+ 90 words of extra memory for PDF output out of 10000 (max. 10000000)
 
