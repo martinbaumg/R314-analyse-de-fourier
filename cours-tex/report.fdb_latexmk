@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1663750707 "/Users/martinbaumgaertner/Documents/GitHub/R314-analyse-de-fourier/cours-tex/report.tex" "report.pdf" "report" 1663750708
-  "/Users/martinbaumgaertner/Documents/GitHub/R314-analyse-de-fourier/cours-tex/report.tex" 1663750706 3837 f719829e602370b31d75b55b160aec94 ""
+["pdflatex"] 1663760966 "/Users/martinbaumgaertner/Documents/GitHub/R314-analyse-de-fourier/cours-tex/report.tex" "report.pdf" "report" 1663760967
+  "/Users/martinbaumgaertner/Documents/GitHub/R314-analyse-de-fourier/cours-tex/report.tex" 1663760966 3955 f972ad4bae05374a17f115b2f7db191f ""
   "/dev/null" 0 -1 0 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -239,10 +239,10 @@
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
   "img/courbe1.png" 1663746676 92398 66943425b60533216223da94351c3498 ""
   "img/exo3.png" 1663750612 218733 2b4b85498c12149f3e34183c1a7e00e0 ""
-  "report.aux" 1663750708 2545 d209432d2ee8544629dcf37f770534de "pdflatex"
-  "report.out" 1663750708 1707 c67c4754f93a30cf2c4c4b7c61a61a20 "pdflatex"
-  "report.tex" 1663750706 3837 f719829e602370b31d75b55b160aec94 ""
-  "report.toc" 1663750708 888 be0cd04cae12590f8f01d8fcda7ad876 "pdflatex"
+  "report.aux" 1663760967 2545 d209432d2ee8544629dcf37f770534de "pdflatex"
+  "report.out" 1663760967 1707 c67c4754f93a30cf2c4c4b7c61a61a20 "pdflatex"
+  "report.tex" 1663760966 3955 f972ad4bae05374a17f115b2f7db191f ""
+  "report.toc" 1663760967 888 be0cd04cae12590f8f01d8fcda7ad876 "pdflatex"
   (generated)
   "report.aux"
   "report.log"

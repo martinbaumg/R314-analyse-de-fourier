@@ -6,6 +6,8 @@
 \usepackage[T1]{fontenc}
 \usepackage{listings}
 \usepackage{geometry}
+\usepackage{tikz}
+\usepackage{pgfplots}
 \usepackage{amsmath}
 \usepackage{minted}
 \usepackage{array,multirow,makecell}
@@ -20,6 +22,7 @@
 \rfoot{\thepage}
 \lfoot{Martin Baumgaertner}
 \cfoot{}
+\pgfplotsset{compat=1.11}
 \renewcommand{\footrulewidth}{0.4pt}
 \renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\listingscaption}{Code}
@@ -67,11 +70,16 @@ pour la grosse formule au dessus avec le petit 1 :
 \end{itemize}
 
 \subsection{Exemple}
-Soit le signal $ f(t) = $
-\begin{itemize}
-    \item $ 1 $ si $ - \pi \leq t \leq 0 $
-    \item $ 2 $ si $ 0 \leq t \leq \pi $
-\end{itemize} 
+
+Soit le signal :\\
+
+$ f(t) = \left\{
+          \begin{array}{ll}
+            1 $ si $ - \pi \leq t \leq 0 \\
+            2 $ si $ 0 \leq t \leq \pi \\
+          \end{array}
+        \right.$
+
 \subsubsection{Tracer le signal}
 \begin{figure}[H]
     \centering
