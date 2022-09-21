@@ -1,0 +1,10 @@
+\babel@toc {french}{}\relax 
+\contentsline {section}{\numberline {1}CM 1 - 21 septembre 2022}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Définition}{2}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Exemple}{2}{subsection.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1}Tracer le signal}{3}{subsubsection.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.2}Calcul de sa valeur moyenne}{3}{subsubsection.1.2.2}%
+\contentsline {subsubsection}{\numberline {1.2.3}Calcul des coefficients de Fourier}{4}{subsubsection.1.2.3}%
+\contentsline {subsubsection}{\numberline {1.2.4}Donner sa décomposition en série de Fourier}{4}{subsubsection.1.2.4}%
+\contentsline {subsubsection}{\numberline {1.2.5}Donner les 4 premières harmoniques}{4}{subsubsection.1.2.5}%
+\contentsline {subsubsection}{\numberline {1.2.6}Trucs et astuces}{4}{subsubsection.1.2.6}%

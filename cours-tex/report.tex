@@ -1,0 +1,116 @@
+\documentclass[12pt, a4paper]{article}
+\usepackage[francais]{babel}
+\usepackage{caption}
+\usepackage{pgfplots}
+\usepackage{graphicx}
+\usepackage[T1]{fontenc}
+\usepackage{listings}
+\usepackage{geometry}
+\usepackage{amsmath}
+\usepackage{minted}
+\usepackage{array,multirow,makecell}
+\usepackage[colorlinks=true,linkcolor=black,anchorcolor=black,citecolor=black,filecolor=black,menucolor=black,runcolor=black,urlcolor=black]{hyperref}
+\setcellgapes{1pt}
+\makegapedcells
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{}
+\rhead{}
+\chead{}
+\rfoot{\thepage}
+\lfoot{Martin Baumgaertner}
+\cfoot{}
+\renewcommand{\footrulewidth}{0.4pt}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\listingscaption}{Code}
+\renewcommand{\listoflistingscaption}{Table des codes}
+% \usepackage{mathpazo} --> Police à utiliser lors de rapports plus sérieux
+
+\begin{document}
+\begin{titlepage}
+	\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} 
+	\center 
+	\textsc{\LARGE iut de colmar}\\[6.5cm] 
+	\textsc{\Large R314}\\[0.5cm] 
+	\textsc{\large Année 2022-23}\\[0.5cm]
+	\HRule\\[0.75cm]
+	{\huge\bfseries Analyse de Fourier}\\[0.4cm]
+	\HRule\\[1.5cm]
+	\textsc{\large martin baumgaertner}\\[6.5cm] 
+
+	\vfill\vfill\vfill
+	{\large\today} 
+	\vfill
+\end{titlepage}
+\newpage
+\tableofcontents
+\newpage
+\section{CM 1 - 21 septembre 2022}
+\subsection{Définition}
+Un signal est dit périodique lorsque que nous pouvons retrouver un travers
+un signal un zone répétée.\\
+La fréquence d'un signal peut se calculer avec : $ \nu $ = $ f = \frac{1}{T} $\\[1cm]
+$ f(t) $ = signal périodique de période T. Et, on l'écrira de cette manière :\\[0.5cm]
+$ f(t) = a_{0} + \sum_{n=1}^{+\infty} a_{n}cos(n \omega t) + b_{n}sin(n \omega t) $\\
+
+Les différents harmoniques de rang n peut s'écrire :\\
+$ a_{n} cos(n \omega t) + b_{n}sin(n \omega t) = hn(t)$\\
+
+Le calcul des coefficients de Fourier  :\\
+$ a_{0} = \frac{1}{T} \int_{\bigtriangleup } f(t) dt $ = valeur moyenne \\[0.5cm]
+
+Ces deux formules servent car nous pouvons calculer les données $ a_{n} $ et $ b_{n} $ 
+pour la grosse formule au dessus avec le petit 1 : 
+\begin{itemize}
+    \item $ a_{n} = \frac{2}{T} \int_{\bigtriangleup } f(t) cos(n \omega t) dt $
+    \item $ b_{n} = \frac{2}{T} \int_{\bigtriangleup } f(t) sin(n \omega t) dt $
+\end{itemize}
+
+\subsection{Exemple}
+Soit le signal $ f(t) = $
+\begin{itemize}
+    \item $ 1 $ si $ - \pi \leq t \leq 0 $
+    \item $ 2 $ si $ 0 \leq t \leq \pi $
+\end{itemize} 
+\subsubsection{Tracer le signal}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{img/courbe1.png}
+    \caption{La courbe 1}
+    \label{fig:courbe}
+\end{figure}
+
+\subsubsection{Calcul de sa valeur moyenne}
+
+On calcule d'abord $ a_{O} = \frac{1}{T} \int_{\bigtriangleup}f(t) dt$\\[0.5cm]
+\begin{itemize}
+    \item $ T = 2\pi $\\
+    \item $ \bigtriangleup = [- \pi; \pi] $\\
+    \item $ a_{0} = \frac{1}{2 \pi} \int_{- \pi}^{\pi} f(t)dt = \frac{1}{2T}(\int_{- \pi}^{0} 1dt + \int_{0}^{\pi}2dt $\\
+    \item $ a_{0} = \frac{1}{2\pi}([t]_{- \pi}^{0} + [2t]_{0}^{\pi}) $\\
+    \item $ a_{0} = \frac{1}{2\pi}(0 - (- \pi) + (2 \pi - 0)) $\\
+    \item $ a_{0} = \frac{1}{2\pi}(\pi + 2 \pi) = \frac{1}{2 \pi} = \frac{3}{2} $\\
+\end{itemize}
+
+\subsubsection{Calcul des coefficients de Fourier}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{img/exo3.png}
+    \caption{Exerice 3}
+    \label{fig:exo3}
+\end{figure}
+\subsubsection{Donner sa décomposition en série de Fourier}
+
+\subsubsection{Donner les 4 premières harmoniques}
+
+\subsubsection{Trucs et astuces}
+
+\begin{itemize}
+    \item Si $ f(t) $ est pair alors les $ b_{n} $ sont nuls
+    \item Si $ f(t) $ est impair alors $ a_{0} $ les $ a_{n} $ sont nuls
+    \item Si $ f(t) $ est quelconque mais que $ f(t) - a_{O} $ est impair alors les
+    $ a_{n} $ sont nuls 
+    
+\end{itemize}
+
+\end{document}
