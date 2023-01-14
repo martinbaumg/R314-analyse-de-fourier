@@ -167,4 +167,26 @@ Premièrement, on calcule $ a_{n} $ et $ b_{n} $ :\\
     $ a_{n} $ sont nuls 
 \end{itemize}
 
+\newpage
+
+\section{CM 2 - 13 janvier 2023}
+\subsection{Intégrales}
+\par $ \Rightarrow \int_{- \pi}^{\pi}  sin(2t)dt $\\
+
+La primitive de $ sin(t) $ est $ -cos(t) $\\
+
+Sauf que dans notre cas ça ne s'applique pas, il va donc falloir revenir sur le
+sinus d'une variable :
+
+on pose $ u = 2t $ \\
+\par $ du = u' dt $ \\
+\par $ du = 2t $ \\
+\par $ \frac{du}{2} = dt $ \\
+\par $ I = \int sin(u)\frac{du}{2} = \frac{1}{2}\int sin(u) du $ \\
+\par $ \frac{1}{2} [-cos(u)] = \frac{1}{2}[-cos(2t)]_{-\pi}^{\pi} = [\frac{-cos(2t)}{2}]_{-\pi}^{\pi} = 0 $ \\  
+
+L'intégral d'une fonction impaire sur l'intervalle symétrique par rapport à 0 est nulle.\\
+
+
+
 \end{document}
